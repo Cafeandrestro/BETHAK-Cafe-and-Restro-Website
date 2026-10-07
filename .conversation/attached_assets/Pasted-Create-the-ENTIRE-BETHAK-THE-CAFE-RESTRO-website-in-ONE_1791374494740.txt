@@ -1,0 +1,958 @@
+Create the **ENTIRE BETHAK THE CAFE & RESTRO website in ONE SINGLE GENERATION**.
+
+Build a polished, production-quality restaurant website designed to make visitors hungry, interested, and motivated to visit the restaurant or call.
+
+## 🚨 CRITICAL SINGLE-GENERATION REQUIREMENT
+
+Do NOT ask me questions.
+
+Do NOT ask for confirmation.
+
+Do NOT create only a homepage.
+
+Do NOT create a prototype.
+
+Do NOT stop after scaffolding.
+
+Do NOT leave TODOs, Lorem Ipsum, placeholder sections, broken buttons, unfinished components, or fake content.
+
+Build and finish the **COMPLETE WEBSITE in one generation**.
+
+Implement everything in this prompt at once:
+
+* Complete responsive website
+* Navigation
+* Hero section
+* Food highlights
+* Menu/category showcase
+* Restaurant story/about
+* Dining experience
+* Reviews
+* Gallery
+* Pricing/trust section
+* Location
+* Opening information
+* Contact CTAs
+* Footer
+* Mobile action bar
+* Animations
+* SEO
+* Accessibility
+* Responsive behavior
+* Functional call/directions buttons
+
+The final result should be polished enough to immediately demonstrate to the restaurant owner.
+
+---
+
+# 1. TECH STACK
+
+Use:
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Lucide React icons
+
+Create reusable components.
+
+Suggested component structure:
+
+* Navbar
+* Hero
+* TrustBar
+* SignatureFood
+* FoodCategories
+* About
+* DiningExperience
+* Gallery
+* Reviews
+* PriceSection
+* VisitUs
+* Contact
+* Footer
+* MobileActionBar
+
+Keep the code clean, modular, and production-ready.
+
+---
+
+# 2. BUSINESS INFORMATION
+
+Use ONLY the supplied information.
+
+## Business Name
+
+**BETHAK THE CAFE & RESTRO**
+
+Use the brand name consistently throughout the website.
+
+## Business Type
+
+Cafe & Restaurant
+
+## Description
+
+**Versatile cafe and restaurant serving signature matka biryani and Gujarati thali.**
+
+The supplied business information also describes:
+
+**Fast foods, kathiyawadi dinner lunch**
+
+Use these descriptions naturally throughout the website.
+
+---
+
+# 3. LOCATION
+
+Address:
+
+**Plot no. 1739, Opp Ramdev Plus Apartment, Near Anmol Bakery, Opp Lane Bakrol Square, Near Sama Hostel, Vallabh Vidyanagar, Anand, Gujarat 388315**
+
+Present the address clearly.
+
+Do not alter the actual location.
+
+---
+
+# 4. PHONE
+
+Phone:
+
+**097255 37075**
+
+Create a functional call button using:
+
+`tel:09725537075`
+
+Primary CTA:
+
+**Call Now**
+
+---
+
+# 5. HOURS
+
+The supplied Google information currently shows:
+
+**Closed · Opens 7 PM**
+
+However, the business description says:
+
+**"Versatile 24-hour cafe and restaurant..."**
+
+IMPORTANT:
+
+Do NOT silently convert this into a specific operating schedule that is not supplied.
+
+Present the information carefully, for example:
+
+**24-Hour Restaurant**
+
+and separately display:
+
+**Current listing: Opens 7 PM**
+
+Do not invent a full Monday–Sunday timetable.
+
+---
+
+# 6. PRICE RANGE
+
+Display:
+
+**₹1–200 per person**
+
+Label it clearly as:
+
+**Approx. price per person**
+
+Do not claim that every item costs within this range.
+
+---
+
+# 7. EXTERNAL RATINGS
+
+Display the supplied third-party ratings:
+
+### Zomato
+
+**3.5/5 · 327 votes**
+
+### magicpin
+
+**3.6/5 · 319 votes**
+
+Clearly identify the platforms.
+
+Do not invent a Google rating because none has been supplied.
+
+Do not calculate or combine these ratings into a fake overall rating.
+
+---
+
+# 8. HERO SECTION
+
+Create a visually stunning restaurant hero.
+
+The first screen should immediately communicate:
+
+**BETHAK**
+**THE CAFE & RESTRO**
+
+Main headline:
+
+**A Taste Worth Coming Back For**
+
+Supporting text:
+
+**From signature matka biryani and Gujarati thali to fast food and Kathiyawadi favourites, discover a versatile dining experience in Vallabh Vidyanagar.**
+
+Primary CTA:
+
+**Explore Our Food**
+
+Secondary CTA:
+
+**Get Directions**
+
+Phone CTA:
+
+**Call Now**
+
+Use a large, mouth-watering food image.
+
+Preferred visual subjects:
+
+* Matka biryani
+* Gujarati thali
+* Indian restaurant food
+* Kathiyawadi food
+* Warm restaurant ambience
+
+The hero should feel rich, warm and appetizing.
+
+Use subtle dark overlays so text remains readable.
+
+---
+
+# 9. VISUAL DESIGN DIRECTION
+
+The website should feel like:
+
+**Modern Indian restaurant + warm cafe + premium food photography**
+
+Use a sophisticated food-oriented palette such as:
+
+* Deep charcoal
+* Warm cream
+* Terracotta
+* Burnt orange
+* Subtle golden accents
+
+Do not make the interface overly colorful.
+
+Use large food photography.
+
+Use rounded cards selectively.
+
+Use strong typography.
+
+Use generous spacing.
+
+The overall website should feel:
+
+**Warm → Appetizing → Comfortable → Modern → Authentic**
+
+Avoid a generic corporate restaurant template.
+
+---
+
+# 10. NAVBAR
+
+Create a sticky responsive navbar.
+
+Logo:
+
+**BETHAK**
+**THE CAFE & RESTRO**
+
+Navigation:
+
+* Home
+* Our Food
+* About
+* Reviews
+* Gallery
+* Visit Us
+
+CTA:
+
+**Call Now**
+
+On mobile:
+
+* Hamburger menu
+* Smooth animation
+* Call button
+
+Navbar should become slightly compact when scrolling.
+
+---
+
+# 11. TRUST BAR
+
+Immediately below the hero, create a compact information bar.
+
+Show:
+
+### Signature
+
+Matka Biryani
+
+### Gujarati
+
+Thali
+
+### ₹1–200
+
+Approx. Per Person
+
+### Vallabh Vidyanagar
+
+Anand
+
+This section should quickly tell visitors what makes the restaurant worth visiting.
+
+---
+
+# 12. SIGNATURE FOOD SECTION
+
+Create a highly visual section.
+
+Heading:
+
+**What Makes BETHAK Worth the Visit?**
+
+Feature the signature offerings.
+
+## Feature 1
+
+### Signature Matka Biryani
+
+Description:
+
+**A signature BETHAK speciality served as one of the restaurant's highlighted food experiences.**
+
+## Feature 2
+
+### Gujarati Thali
+
+Description:
+
+**A traditional Gujarati dining option featured among BETHAK's signature offerings.**
+
+## Feature 3
+
+### Kathiyawadi Food
+
+Description:
+
+**Explore Kathiyawadi flavours alongside the restaurant's broader lunch and dinner offerings.**
+
+Use large food photography.
+
+Do not invent specific ingredients.
+
+Do not invent recipes.
+
+Do not invent prices for individual dishes.
+
+---
+
+# 13. FOOD CATEGORIES
+
+Create a visually attractive food discovery section.
+
+Heading:
+
+**Something for Every Craving**
+
+Categories:
+
+### Matka Biryani
+
+Signature speciality.
+
+### Gujarati Thali
+
+Traditional Gujarati dining.
+
+### Kathiyawadi
+
+Kathiyawadi lunch and dinner options.
+
+### Fast Food
+
+Fast-food options available at the restaurant.
+
+Do not list specific dishes unless supplied.
+
+Do not invent menu items.
+
+Do not invent food prices.
+
+Each category should have:
+
+* Image
+* Name
+* Short description
+* Hover animation
+
+---
+
+# 14. ABOUT SECTION
+
+Heading:
+
+**Welcome to BETHAK**
+
+Copy:
+
+**BETHAK THE CAFE & RESTRO is a versatile cafe and restaurant in Vallabh Vidyanagar, Anand, offering a mix of signature Indian food, Gujarati thali, Kathiyawadi lunch and dinner, and fast-food options.**
+
+Continue with:
+
+**Whether you're stopping by for a meal, catching up with friends, or looking for a place to enjoy Indian flavours, BETHAK brings together food, atmosphere and value in one place.**
+
+IMPORTANT:
+
+Do not invent:
+
+* Founder
+* Owner
+* Establishment year
+* Number of employees
+* Awards
+* Certifications
+* Chef information
+* Restaurant history
+
+---
+
+# 15. DINING EXPERIENCE SECTION
+
+Create a visually immersive section.
+
+Heading:
+
+**Good Food. Good Vibe. Good Company.**
+
+Use the supplied customer feedback as inspiration without inventing claims.
+
+Highlight themes actually supported by reviews:
+
+* Good food quality
+* Fresh food
+* Affordable pricing
+* Good lighting
+* Pleasant vibe
+* Atmosphere
+* Service
+* Tasty food
+* Good staff behaviour
+
+Do not present these as guarantees.
+
+Frame them as things customers have mentioned in reviews.
+
+Use a split-screen design:
+
+Left:
+Large restaurant ambience image
+
+Right:
+Short text + feature cards.
+
+---
+
+# 16. CUSTOMER REVIEWS
+
+Create a premium testimonial section.
+
+Heading:
+
+**What Our Guests Say**
+
+Use ONLY these supplied Google reviews.
+
+### Tushar Sharma
+
+"Good quality fresh food at an affordable price with good lighting and vibe."
+
+### chandramani Mishra
+
+"Liked the atmosphere of this place and service 👍"
+
+### Zala Surydeepsinh
+
+"Tasty food and staff behaviour is good."
+
+Display each as a stylish testimonial card.
+
+Include a Google Reviews CTA if an appropriate Google review/search URL is available.
+
+Do not fabricate additional reviews.
+
+Do not rewrite the reviews in a way that changes their meaning.
+
+---
+
+# 17. RATINGS SECTION
+
+Create a dedicated trust section.
+
+Display:
+
+**3.5/5**
+Zomato
+327 votes
+
+**3.6/5**
+magicpin
+319 votes
+
+Also display:
+
+**₹1–200**
+Approx. price per person
+
+Keep the platforms clearly separated.
+
+Do not display these as a combined rating.
+
+---
+
+# 18. GALLERY
+
+Create an immersive restaurant gallery.
+
+Use high-quality imagery representing:
+
+* Matka biryani
+* Gujarati thali
+* Indian food
+* Kathiyawadi food
+* Restaurant ambience
+* Cafe dining
+* Indian dinner setting
+
+Use a modern editorial masonry layout.
+
+Interactions:
+
+* Hover zoom
+* Image overlay
+* Lightbox
+* Smooth transitions
+
+IMPORTANT:
+
+If generic stock/external images are used, do not falsely imply they are actual BETHAK food or restaurant photographs.
+
+Use them as visual representation where actual business photos are unavailable.
+
+Do not invent dishes or menu items through image captions.
+
+---
+
+# 19. "THE BETHAK MOMENT" SECTION
+
+Create a distinctive branded section.
+
+Heading:
+
+**Your Next BETHAK Awaits**
+
+Use an atmospheric restaurant image.
+
+Text:
+
+**Come for the food. Stay for the atmosphere. Make it a BETHAK.**
+
+Add CTA:
+
+**Find Us**
+
+Secondary CTA:
+
+**Call 097255 37075**
+
+This should become one of the emotional highlights of the website.
+
+---
+
+# 20. VISIT US SECTION
+
+Create a strong location CTA.
+
+Heading:
+
+**Find Your Way to BETHAK**
+
+Display:
+
+📍
+
+**Plot no. 1739, Opp Ramdev Plus Apartment, Near Anmol Bakery, Opp Lane Bakrol Square, Near Sama Hostel, Vallabh Vidyanagar, Anand, Gujarat 388315**
+
+📞
+
+**097255 37075**
+
+🕒
+
+**Current listing: Opens 7 PM**
+
+🍽️
+
+**24-Hour Restaurant**
+
+Do not create a contradictory detailed weekly schedule.
+
+Primary button:
+
+**Get Directions**
+
+Open Google Maps using a search/query URL for the exact address.
+
+Secondary:
+
+**Call Now**
+
+---
+
+# 21. MAP SECTION
+
+Create a visual map/location area.
+
+If embedding an actual Google Maps iframe is not practical, create a premium map-style card with:
+
+**BETHAK THE CAFE & RESTRO**
+
+**Vallabh Vidyanagar, Anand**
+
+CTA:
+
+**Open in Google Maps**
+
+Make sure the button uses the correct address.
+
+---
+
+# 22. CONTACT SECTION
+
+Create a clean final conversion section.
+
+Heading:
+
+**Hungry Yet?**
+
+Supporting text:
+
+**Make your way to BETHAK and discover signature Indian flavours, thali, Kathiyawadi food and more.**
+
+Buttons:
+
+**Call Now**
+
+**Get Directions**
+
+Phone:
+
+**097255 37075**
+
+---
+
+# 23. MOBILE BOTTOM ACTION BAR
+
+On mobile, create a fixed bottom navigation bar:
+
+**Call**
+
+**Directions**
+
+**Food**
+
+Make it visually polished.
+
+Ensure it does not cover content.
+
+Make all buttons touch-friendly.
+
+---
+
+# 24. FOOTER
+
+Create a premium footer.
+
+Display:
+
+**BETHAK THE CAFE & RESTRO**
+
+"Fast foods, kathiyawadi dinner lunch"
+
+Location:
+
+Vallabh Vidyanagar, Anand, Gujarat
+
+Phone:
+
+097255 37075
+
+Links:
+
+* Home
+* Our Food
+* About
+* Reviews
+* Gallery
+* Visit Us
+
+CTA:
+
+**Get Directions**
+
+Copyright:
+
+**© 2026 BETHAK THE CAFE & RESTRO. All rights reserved.**
+
+---
+
+# 25. ANIMATIONS
+
+Use subtle premium animations:
+
+* Hero text reveal
+* Image fade-in
+* Scroll reveal
+* Card hover
+* Food image zoom
+* Button hover
+* Navbar transition
+* Smooth scrolling
+* Gallery transitions
+* Lightbox animation
+
+Keep animations elegant.
+
+Do not over-animate the website.
+
+Support:
+
+`prefers-reduced-motion`
+
+---
+
+# 26. SEO
+
+Create strong local SEO.
+
+Title:
+
+**BETHAK THE CAFE & RESTRO | Matka Biryani & Gujarati Thali in Anand**
+
+Meta description:
+
+**Visit BETHAK THE CAFE & RESTRO in Vallabh Vidyanagar, Anand for signature matka biryani, Gujarati thali, Kathiyawadi food and fast-food options.**
+
+Use semantic HTML.
+
+Use:
+
+* H1
+* H2
+* H3
+
+Add descriptive image alt text.
+
+Create LocalBusiness/Restaurant structured data using ONLY supplied information.
+
+Do not invent ratings or opening schedules.
+
+---
+
+# 27. ACCESSIBILITY
+
+Implement:
+
+* Semantic HTML
+* Keyboard navigation
+* Accessible buttons
+* Visible focus states
+* Image alt text
+* Proper heading hierarchy
+* Accessible mobile navigation
+* Sufficient color contrast
+* ARIA labels where necessary
+
+---
+
+# 28. RESPONSIVE DESIGN
+
+Perfectly support:
+
+* 320px mobile
+* 375px mobile
+* 430px mobile
+* Tablet
+* Laptop
+* Desktop
+* Large desktop
+
+No horizontal overflow.
+
+Food images should remain visually attractive at every breakpoint.
+
+Typography should scale smoothly.
+
+---
+
+# 29. PERFORMANCE
+
+Optimize the website with:
+
+* Lazy-loaded images
+* Responsive image dimensions
+* Minimal dependencies
+* Reusable components
+* Efficient animations
+* No unnecessary JavaScript
+
+Avoid layout shifts.
+
+---
+
+# 30. CONTENT SAFETY / ACCURACY
+
+NEVER invent:
+
+* Menu items
+* Dish prices
+* Ingredients
+* Offers
+* Discounts
+* Delivery service
+* Online ordering
+* Payment methods
+* Reservations
+* Private dining
+* Catering
+* Events
+* Parking
+* Wi-Fi
+* AC
+* Family section
+* Outdoor seating
+* Owner/founder
+* Chef
+* Awards
+* Certifications
+* Years in business
+* Fake reviews
+* Fake ratings
+
+Only use information supplied in this prompt.
+
+If a feature is not confirmed, do not claim it exists.
+
+---
+
+# 31. IMPORTANT 24-HOUR CLAIM
+
+The supplied description says:
+
+**"Versatile 24-hour cafe and restaurant..."**
+
+Use this as a business description.
+
+However, the current listing information also says:
+
+**"Closed · Opens 7 PM"**
+
+Do not invent a detailed 24-hour schedule.
+
+Use wording such as:
+
+**"A 24-hour cafe and restaurant, according to the business description."**
+
+and separately:
+
+**"Current listing: Opens 7 PM."**
+
+This preserves the supplied information without falsely creating exact hours.
+
+---
+
+# 32. FINAL BUILD CHECK
+
+Before completing the task:
+
+* Run the build
+* Fix TypeScript errors
+* Fix import errors
+* Fix routing errors
+* Fix responsive issues
+* Fix console errors
+* Check all buttons
+* Check phone link
+* Check directions link
+* Check mobile menu
+* Check mobile action bar
+* Check gallery
+* Check lightbox
+* Check animations
+* Check SEO
+* Check accessibility
+* Remove all Lorem Ipsum
+* Remove all TODOs
+* Remove all placeholder text
+
+The website must be complete and functional.
+
+---
+
+# 33. FINAL VISUAL GOAL
+
+The first impression should be:
+
+**"This food looks amazing — I want to visit BETHAK."**
+
+The website should feel:
+
+**Warm + Appetizing + Modern + Indian + Affordable + Memorable**
+
+Make **Matka Biryani** the strongest visual food hook.
+
+Make **Gujarati Thali and Kathiyawadi food** the secondary highlights.
+
+Make the **restaurant atmosphere** part of the experience.
+
+Make **Call** and **Get Directions** highly visible throughout the website.
+
+The final website should look like a professionally designed restaurant brand website, NOT a generic AI-generated template.
+
+## FINAL INSTRUCTION
+
+**CREATE AND FINISH THE ENTIRE BETHAK THE CAFE & RESTRO WEBSITE IN ONE SINGLE GENERATION.**
+
+Do not ask questions.
+
+Do not request confirmation.
+
+Do not create a partial website.
+
+Do not stop after scaffolding.
+
+Build the complete polished website now.

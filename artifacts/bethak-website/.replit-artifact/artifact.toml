@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "BETHAK THE CAFE & RESTRO"
+description = "A complete, responsive local restaurant website for BETHAK THE CAFE & RESTRO in Vallabh Vidyanagar, featuring its food offerings, verified customer reviews, location details, and direct call and directions actions."
+version = "1.0.0"
+id = "artifacts/bethak-website"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22887
+
+[services.development]
+run = "pnpm --filter @workspace/bethak-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/bethak-website", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/bethak-website/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22887"
+BASE_PATH = "/"
